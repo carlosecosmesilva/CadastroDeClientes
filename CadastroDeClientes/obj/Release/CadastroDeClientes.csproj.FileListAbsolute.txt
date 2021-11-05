@@ -13,6 +13,6 @@ E:\Projetos com C#\Cadastro de Clientes\CadastroDeClientes\CadastroDeClientes\ob
 E:\Projetos com C#\Cadastro de Clientes\CadastroDeClientes\CadastroDeClientes\obj\Release\CadastroDeClientes.Properties.Resources.resources
 E:\Projetos com C#\Cadastro de Clientes\CadastroDeClientes\CadastroDeClientes\obj\Release\CadastroDeClientes.csproj.GenerateResource.cache
 E:\Projetos com C#\Cadastro de Clientes\CadastroDeClientes\CadastroDeClientes\obj\Release\CadastroDeClientes.csproj.CoreCompileInputs.cache
-E:\Projetos com C#\Cadastro de Clientes\CadastroDeClientes\CadastroDeClientes\obj\Release\CadastroDeClientes.csproj.CopyComplete
 E:\Projetos com C#\Cadastro de Clientes\CadastroDeClientes\CadastroDeClientes\obj\Release\CadastroDeClientes.exe
 E:\Projetos com C#\Cadastro de Clientes\CadastroDeClientes\CadastroDeClientes\obj\Release\CadastroDeClientes.pdb
+E:\Projetos com C#\Cadastro de Clientes\CadastroDeClientes\CadastroDeClientes\obj\Release\CadastroDeClientes.Frm_Busca.resources

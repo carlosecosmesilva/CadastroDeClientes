@@ -47,7 +47,6 @@ namespace CadastroDeClientes
             this.Txt_Nome = new System.Windows.Forms.TextBox();
             this.Txt_NomeMae = new System.Windows.Forms.TextBox();
             this.Txt_NomePai = new System.Windows.Forms.TextBox();
-            this.Dt_Nascimento = new System.Windows.Forms.DateTimePicker();
             this.Grp_DadosPessoais = new System.Windows.Forms.GroupBox();
             this.Chk_NaoTemPai = new System.Windows.Forms.CheckBox();
             this.Grp_Telefone = new System.Windows.Forms.GroupBox();
@@ -73,6 +72,7 @@ namespace CadastroDeClientes
             this.Grp_DataGrid = new System.Windows.Forms.GroupBox();
             this.Dg_Clientes = new System.Windows.Forms.DataGridView();
             this.Btn_Busca = new System.Windows.Forms.Button();
+            this.Msk_Data = new System.Windows.Forms.MaskedTextBox();
             this.CPF = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Tls_Principal.SuspendLayout();
@@ -212,14 +212,14 @@ namespace CadastroDeClientes
             this.Msk_CPF.Mask = "000.000.000-00";
             this.Msk_CPF.Name = "Msk_CPF";
             this.Msk_CPF.Size = new System.Drawing.Size(89, 20);
-            this.Msk_CPF.TabIndex = 6;
+            this.Msk_CPF.TabIndex = 1;
             // 
             // Txt_Nome
             // 
             this.Txt_Nome.Location = new System.Drawing.Point(47, 65);
             this.Txt_Nome.Name = "Txt_Nome";
             this.Txt_Nome.Size = new System.Drawing.Size(397, 20);
-            this.Txt_Nome.TabIndex = 7;
+            this.Txt_Nome.TabIndex = 2;
             // 
             // Txt_NomeMae
             // 
@@ -235,22 +235,15 @@ namespace CadastroDeClientes
             this.Txt_NomePai.Size = new System.Drawing.Size(362, 20);
             this.Txt_NomePai.TabIndex = 9;
             // 
-            // Dt_Nascimento
-            // 
-            this.Dt_Nascimento.Location = new System.Drawing.Point(263, 36);
-            this.Dt_Nascimento.Name = "Dt_Nascimento";
-            this.Dt_Nascimento.Size = new System.Drawing.Size(181, 20);
-            this.Dt_Nascimento.TabIndex = 10;
-            // 
             // Grp_DadosPessoais
             // 
+            this.Grp_DadosPessoais.Controls.Add(this.Msk_Data);
             this.Grp_DadosPessoais.Controls.Add(this.Chk_NaoTemPai);
             this.Grp_DadosPessoais.Controls.Add(this.Grp_Telefone);
             this.Grp_DadosPessoais.Controls.Add(this.Txt_NomePai);
             this.Grp_DadosPessoais.Controls.Add(this.Grp_Genero);
             this.Grp_DadosPessoais.Controls.Add(this.Lbl_Nome);
             this.Grp_DadosPessoais.Controls.Add(this.Txt_NomeMae);
-            this.Grp_DadosPessoais.Controls.Add(this.Dt_Nascimento);
             this.Grp_DadosPessoais.Controls.Add(this.Lbl_NomePai);
             this.Grp_DadosPessoais.Controls.Add(this.Lbl_CPF);
             this.Grp_DadosPessoais.Controls.Add(this.Lbl_NomeMae);
@@ -498,6 +491,15 @@ namespace CadastroDeClientes
             this.Btn_Busca.UseVisualStyleBackColor = true;
             this.Btn_Busca.Click += new System.EventHandler(this.Btn_Busca_Click);
             // 
+            // Msk_Data
+            // 
+            this.Msk_Data.Location = new System.Drawing.Point(263, 36);
+            this.Msk_Data.Mask = "00/00/0000";
+            this.Msk_Data.Name = "Msk_Data";
+            this.Msk_Data.Size = new System.Drawing.Size(79, 20);
+            this.Msk_Data.TabIndex = 3;
+            this.Msk_Data.ValidatingType = typeof(System.DateTime);
+            // 
             // CPF
             // 
             this.CPF.HeaderText = "CPF do Cliente";
@@ -556,7 +558,6 @@ namespace CadastroDeClientes
         private System.Windows.Forms.TextBox Txt_Nome;
         private System.Windows.Forms.TextBox Txt_NomeMae;
         private System.Windows.Forms.TextBox Txt_NomePai;
-        private System.Windows.Forms.DateTimePicker Dt_Nascimento;
         private System.Windows.Forms.GroupBox Grp_DadosPessoais;
         private System.Windows.Forms.GroupBox Grp_Genero;
         private System.Windows.Forms.RadioButton Rdb_Feminino;
@@ -582,6 +583,7 @@ namespace CadastroDeClientes
         private System.Windows.Forms.GroupBox Grp_DataGrid;
         private System.Windows.Forms.DataGridView Dg_Clientes;
         private System.Windows.Forms.Button Btn_Busca;
+        private System.Windows.Forms.MaskedTextBox Msk_Data;
         private System.Windows.Forms.DataGridViewTextBoxColumn CPF;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
     }

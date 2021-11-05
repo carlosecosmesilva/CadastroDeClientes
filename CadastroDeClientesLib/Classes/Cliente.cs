@@ -29,6 +29,9 @@ namespace CadastroDeClientesLib.Classes
             [Required(ErrorMessage = "CPF é obrigatório")]
             public string Cpf { get; set; }
 
+            [Required(ErrorMessage = "A Data de Nascimento é obrigatória")]
+            public string Data { get; set; }
+
             [Required(ErrorMessage = "O genêro é obrigatório")]
             public int Genero { get; set; }
 

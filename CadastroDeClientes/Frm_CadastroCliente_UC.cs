@@ -32,6 +32,7 @@ namespace CadastroDeClientes
             Tls_Principal.Items[6].ToolTipText = "Limpar dados da tela de cadastro de clientes";
 
             Msk_CPF.Mask = "000,000,000-00";
+            Msk_Data.Mask = "00/00/0000";
 
             Grp_DadosPessoais.Text = "Dados Pessoais";
             Lbl_CPF.Text = "CPF";
@@ -74,6 +75,7 @@ namespace CadastroDeClientes
             Txt_NomePai.Text = " ";
             Msk_Celular.Text = " ";
             Txt_Cidade.Text = " ";
+            Msk_Data.Text = " ";
             Chk_NaoTemPai.Checked = false;
             Rdb_Indefinido.Checked = true;
         }
@@ -249,6 +251,8 @@ namespace CadastroDeClientes
             {
                 C.Genero = 2;
             }
+
+            C.Data = Msk_Data.Text;
             C.Cpf = Msk_CPF.Text;
             C.Cep = Txt_CEP.Text;
             C.Logradouro = Txt_Logradouro.Text;
@@ -290,6 +294,7 @@ namespace CadastroDeClientes
                 Rdb_Indefinido.Checked = true;
             }
 
+            Msk_Data.Text = C.Data;
             Msk_CPF.Text = C.Cpf;
             Txt_CEP.Text = C.Cep;
             Txt_Logradouro.Text = C.Logradouro;

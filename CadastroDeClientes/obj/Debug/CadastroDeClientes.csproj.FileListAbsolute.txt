@@ -16,3 +16,4 @@ E:\Projetos com C#\Cadastro de Clientes\CadastroDeClientes\CadastroDeClientes\bi
 E:\Projetos com C#\Cadastro de Clientes\CadastroDeClientes\CadastroDeClientes\bin\Debug\CadastroDeClientesLib.dll.config
 E:\Projetos com C#\Cadastro de Clientes\CadastroDeClientes\CadastroDeClientes\obj\Debug\CadastroDeClientes.Frm_Questao.resources
 E:\Projetos com C#\Cadastro de Clientes\CadastroDeClientes\CadastroDeClientes\obj\Debug\CadastroDeClientes.Frm_Busca.resources
+E:\Projetos com C#\Cadastro de Clientes\CadastroDeClientes\CadastroDeClientes\obj\Debug\CadastroDeClientes.csproj.CopyComplete
